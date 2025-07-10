@@ -21,7 +21,7 @@ In this example, we'll use a linear regression model to predict housing prices b
 First, make sure you have scikit-learn installed. You can install it using pip:
 """
 
-!pip install scikit-learn matplotlib
+# pip install scikit-learn matplotlib
 
 """To know more about scikit-learn : [Scikit-learn Documentation](https://scikit-learn.org/stable/)
 
@@ -153,8 +153,6 @@ scikit-learn
 
 3) Create another txt file and store the following Streamlit script and save as projectname.py e.g. linear_regression_house_price_prediction.py
 """
-
-!pip install streamlit
 
 import streamlit as st
 from joblib import load
